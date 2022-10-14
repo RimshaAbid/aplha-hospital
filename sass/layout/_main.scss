@@ -16,7 +16,15 @@ body{
 		.img{
 			background: #3c4152;
 		    border-radius: 50px;
-		    padding-left: 0px;
+		    padding-left: 5px;
+		    margin: 6px;
+		    height: 80px;
+    		width: 80px;
+		}
+		#img{
+			background: #3c4152;
+		    border-radius: 50px;
+		    padding-left: 6px;
 		    margin: 6px;
 		    height: 80px;
     		width: 80px;
@@ -25,7 +33,7 @@ body{
 			p{
 			padding-top: 15px;
     		padding-bottom: 15px;
-    		font-family: 'Poppins', sans-serif;
+    		font-family: 'Poppins',sans-serif;
     		font-weight: bold;
     		letter-spacing: 1px;
 		}
@@ -173,98 +181,6 @@ h2{
 		.second-image{
 			box-shadow: 40px 40px #0e81dd;
 			width: 500px;
-		}
-	}
-}
-#footer-container{
-	margin-top: 59px;
-	.col-md-10{
-		width: 1190px;
-	    margin-left: -49px;
-	    height: 255px;
-	    margin-bottom: -120px;
-        padding-top: 83px;
-        .col-md-3{
-        	padding:10px;
-        	h4{
-        		font-size:40px;
-        	}
-        }
-        .col-md-4{
-        	p{
-        		color: #a4cce9;
-    			font-size: 17px;
-				font-family: 'Poppins';
-				margin-bottom: -35px;
-        		img{
-        			background: #3c4152;
-				    border-radius: 50px;
-				    padding-left: 0px;
-				    height: 80px;
-				    width: 80px;
-			        margin-right: 35px;
-			        margin-top: 10px;
-        		}
-        		span{
-        			margin-top: 10px;
-        		}
-        	}
-        	b{
-        		margin-left: 122px;
-			    font-size: 25px;
-			    color: #fff;
-				font-family: 'Poppins';
-        	}
-        }
-	}
-}
-#footer{
-	padding-top:117px;
-	height: 585px;
-	background:#2e354cde;
-	.footer{
-		padding-top:110px;
-		.col-md-4{
-			margin-left: -79px;
-			p{
-				margin: 10px 0 0 20px;
-			    color: #b3b3b3;
-			    font-family: 'Poppins';
-			}
-			.instagram{
-				margin-left: 19px;
-    			margin-top: 30px;
-			}
-			.linked{
-				margin-left: 25px;
-    			margin-top: 30px;
-    			border-radius:10px;
-			}
-		}
-		.col-md-6{
-			margin-top: 35px;
-			ul{
-				display: flex;
-				li{
-					list-style: none;
-					a{
-						font-family: 'Poppins';
-					    text-decoration: none;
-					    color: #fff;
-					    margin-left: 84px;
-					    font-size: 14px;
-					}
-					#About{
-						margin-left: 90px;
-					}
-					#Service{
-						margin-left: 70px;
-					}
-					#Pharmacy{
-						margin-left: 163px;
-					}
-				}
-			}
 		}
 	}
 }

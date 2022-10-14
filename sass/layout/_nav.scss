@@ -55,6 +55,10 @@ $dropdown-menu-bg:  darken( $nav-anchor-bg, 5%);
     color: #000000a6;
       margin: 10px;
       font-family: 'Poppins', sans-serif;
+      &:hover{
+        color: #0d6efd;
+        transition: 0.3s;
+      }
   }
   .show > .nav-link,
   .nav-link.active {

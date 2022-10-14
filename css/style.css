@@ -363,6 +363,10 @@ p {
     box-shadow: 3px 3px 12px 6px #0000001c;
     font-size: 17px;
     color: #d6e4e9; }
+    .row #inline #btn:hover {
+      color: #0d6efd;
+      transition: 0.3s;
+      background: transparent; }
 .row #row-header {
   margin-top: -92px;
   margin-left: 43px;
@@ -408,6 +412,9 @@ nav .nav-link {
   color: #000000a6;
   margin: 10px;
   font-family: 'Poppins', sans-serif; }
+  nav .nav-link:hover {
+    color: #0d6efd;
+    transition: 0.3s; }
 nav .show > .nav-link,
 nav .nav-link.active {
   --bs-navbar-active-color: rgba(13, 110, 253, 01);
@@ -465,14 +472,21 @@ body {
     .col-md-10 .col-md-3 .img {
       background: #3c4152;
       border-radius: 50px;
-      padding-left: 0px;
+      padding-left: 5px;
+      margin: 6px;
+      height: 80px;
+      width: 80px; }
+    .col-md-10 .col-md-3 #img {
+      background: #3c4152;
+      border-radius: 50px;
+      padding-left: 6px;
       margin: 6px;
       height: 80px;
       width: 80px; }
     .col-md-10 .col-md-3 p {
       padding-top: 15px;
       padding-bottom: 15px;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Poppins',sans-serif;
       font-weight: bold;
       letter-spacing: 1px; }
   .col-md-10 #middle {
@@ -590,6 +604,16 @@ h2 {
       box-shadow: 40px 40px #0e81dd;
       width: 500px; }
 
+/*
+ * ----------------------------------------------------------------------------------------
+ * Sidebar styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Footer styles.
+ * ----------------------------------------------------------------------------------------
+ */
 #footer-container {
   margin-top: 59px; }
   #footer-container .col-md-10 {
@@ -606,17 +630,24 @@ h2 {
       color: #a4cce9;
       font-size: 17px;
       font-family: 'Poppins';
-      margin-bottom: -35px; }
-      #footer-container .col-md-10 .col-md-4 p img {
-        background: #3c4152;
-        border-radius: 50px;
-        padding-left: 0px;
-        height: 80px;
-        width: 80px;
-        margin-right: 35px;
-        margin-top: 10px; }
-      #footer-container .col-md-10 .col-md-4 p span {
-        margin-top: 10px; }
+      margin-left: 121px;
+      margin-top: -63px; }
+    #footer-container .col-md-10 .col-md-4 img {
+      background: #3c4152;
+      border-radius: 50px;
+      padding-left: 0px;
+      height: 80px;
+      width: 80px;
+      margin-right: 35px;
+      margin-top: -1px; }
+    #footer-container .col-md-10 .col-md-4 #img {
+      background: #3c4152;
+      border-radius: 50px;
+      padding-left: 6px;
+      height: 80px;
+      width: 80px;
+      margin-right: 35px;
+      margin-top: -4px; }
     #footer-container .col-md-10 .col-md-4 b {
       margin-left: 122px;
       font-size: 25px;
@@ -661,16 +692,6 @@ h2 {
           #footer .footer .col-md-6 ul li #Pharmacy {
             margin-left: 163px; }
 
-/*
- * ----------------------------------------------------------------------------------------
- * Sidebar styles.
- * ----------------------------------------------------------------------------------------
- */
-/*
- * ----------------------------------------------------------------------------------------
- * Footer styles.
- * ----------------------------------------------------------------------------------------
- */
 /*
  * ----------------------------------------------------------------------------------------
  * Responsive.
