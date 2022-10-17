@@ -25,11 +25,13 @@ $dropdown-menu-bg:  darken( $nav-anchor-bg, 5%);
       border: 0;
       margin-bottom: 0px; 
       padding-bottom:  22px;
+      padding-top: 22px;
     }
      nav{
   .navbar-brand{
-    margin-right: 80px;
+      margin-right: 80px;
       margin-left: 34px;
+
   }
   
   .btn{
@@ -43,6 +45,11 @@ $dropdown-menu-bg:  darken( $nav-anchor-bg, 5%);
       margin-left: auto;
       margin-right: 54px;
       box-shadow: 3px 3px 12px 6px #0000001c;
+      &:hover{
+      color: #0d6efd;
+      transition: 0.3s;
+      background: transparent;
+}
       
 
   }

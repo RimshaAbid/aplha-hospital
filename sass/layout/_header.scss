@@ -6,19 +6,20 @@
 .col-md-6{
 padding:0;
 #img{
-height: 125vh;
+height: 100vh;
 width: 100%;
 }
 }
 .col-md-5{
 padding: 0;
 h2{
-margin-top: 100px;
-font-weight: bold;
-line-height: 1.2;
-font-family: 'Poppins', sans-serif;
-font-size: 4rem;
-padding-bottom:10px;
+	letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'Poppins';
+    font-size: 3rem;
+    padding-bottom: 10px;
+    padding-top: 100px;
 }
 p {
 color: #b3b3b3;
@@ -54,18 +55,25 @@ background-color: ghostwhite;
 margin-top: -170px;
 height: 140px;
 padding-top:42px;
-p{
-padding-left: 0px;
-color: #b3b3b3;
-font-size: 17px;
-font-family: 'Poppins';
+.form-group{
+	label{
+		color: lightgrey;
+    	margin-left: 37px;
+    	font-weight: normal;
+	}
+
+.form-control{
+	border: 1px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-left: 26px;
+    margin-right: 48px;
 }
-.Location{
-padding-left:65px;
 }
-.Service{
-padding-left:27px;
-}
+
 #btn{
 height: 60px;
 padding: 17px;
