@@ -345,29 +345,47 @@ p {
   margin-top: -170px;
   height: 140px;
   padding-top: 42px; }
-  .row #inline .form-group label {
+  .row #inline label {
     color: lightgrey;
-    margin-left: 37px;
-    font-weight: normal; }
-  .row #inline .form-group .form-control {
-    border: 1px solid transparent;
+    margin-left: 50px;
+    font-weight: normal;
+    width: 37px; }
+  .row #inline input {
+    height: 35px;
+    width: 165px;
+    margin-top: 41px;
+    margin-left: -37px;
+    border: none;
     border-radius: 0;
-    background: transparent;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    margin-left: 26px;
-    margin-right: 48px; }
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 4px; }
+  .row #inline input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0; }
+  .row #inline #svg {
+    margin-top: 52px;
+    margin-left: -19px; }
+  .row #inline .form-select {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: -38px;
+    width: 172px;
+    padding-left: 5px; }
   .row #inline #btn {
-    height: 60px;
-    padding: 17px;
+    height: 50px;
+    padding: 10px 50px 10px 50px;
     padding-left: 33px;
     padding-right: 33px;
     border-radius: 0;
     margin-left: 100px;
     box-shadow: 3px 3px 12px 6px #0000001c;
     font-size: 17px;
-    color: #d6e4e9; }
+    color: #d6e4e9;
+    margin-top: 5px; }
     .row #inline #btn:hover {
       color: #0d6efd;
       transition: 0.3s;
@@ -510,23 +528,28 @@ body {
       width: 80px;
       padding: 15px; }
 
-#heading {
+.col-md-4 #heading {
   margin: 100px 0 42px 0;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  padding-left: 77px; }
-  #heading a {
-    float: right;
-    margin-right: 110px; }
-    #heading a #svg {
-      border-radius: 25px;
-      background: #1e90ff47;
-      padding: 5px;
-      margin-right: 20px; }
-    #heading a #SVG {
-      border-radius: 25px;
-      background: dodgerblue;
-      padding: 5px; }
+  padding-left: 60px; }
+
+#controls {
+  width: 51px;
+  margin-top: 100px;
+  margin-left: -10px;
+  margin-right: 20px; }
+  #controls .previous, #controls .next {
+    border: 1px solid transparent;
+    background: #4498ff;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    outline: none;
+    box-shadow: 3px 3px 12px 6px #0000001c; }
 
 .owl-carousel {
   padding-left: 75px; }
@@ -536,6 +559,9 @@ body {
     width: 370px;
     margin: 0 40px 150px 0px;
     padding: 20px; }
+  .owl-carousel .item img {
+    transition: 0.5s;
+    cursor: pointer; }
   .owl-carousel .item h5 {
     font-family: 'Poppins';
     padding-top: 20px;
